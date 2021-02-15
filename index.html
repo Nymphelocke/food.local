@@ -6,6 +6,7 @@
     <title>Food</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/slider.css">
 </head>
 <body>
     <header class="header">
@@ -106,7 +107,7 @@
                     <div class="offer__slider-prev">
                         <img src="icons/left.svg" alt="prev">
                     </div>
-                    <span id="current">03</span>
+                    <span id="current">01</span>
                     /
                     <span id="total">04</span>
                     <div class="offer__slider-next">
@@ -115,17 +116,8 @@
                 </div>
                 <div class="offer__slider-wrapper">
                     <div class="offer__slide">
-                        <img src="img/slider/pepper.jpg" alt="pepper">
+                        <img id="slider-image" src="">
                     </div>
-                    <!-- <div class="offer__slide">
-                        <img src="img/slider/food-12.jpg" alt="food">
-                    </div>
-                    <div class="offer__slide">
-                        <img src="img/slider/olive-oil.jpg" alt="oil">
-                    </div>
-                    <div class="offer__slide">
-                        <img src="img/slider/paprika.jpg" alt="paprika">
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -272,6 +264,7 @@
             </div>
         </div>
     </div>
-<script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
